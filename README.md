@@ -6,6 +6,6 @@
   <li> User authentication and authorization is implemented by Passport.js. </li>
 </ul>
 <div>
-  <h1> animated landing page <h1>
+  <h3> animated landing page <h3>
     <img src="./images/landing1.png" >
- /div>
+ </div>
