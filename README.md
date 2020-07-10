@@ -5,3 +5,7 @@
   <li> Back-end is implemented with Node.js and Express, and utilized MongoDB to store user’s archives. </li>
   <li> User authentication and authorization is implemented by Passport.js. </li>
 </ul>
+<div>
+  <h1> animated landing page <h1>
+    <img src="./images/landing1" >
+ /div>
