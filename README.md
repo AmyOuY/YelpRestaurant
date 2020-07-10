@@ -6,26 +6,32 @@
   <li> User authentication and authorization is implemented by Passport.js. </li>
 </ul>
 <div>
-  <h3> animated landing pages </h3>
-  <img src="./images/landing1.png" width="500">
-  <img src="./images/landing3.png" width="500">
+  <h3> Animated landing pages </h3>
+  <img src="./images/landing1.png">
+  <img src="./images/landing3.png">
   
-  <h3> home page displays all restaurants and allows fuzzy search</h3>
+  <h3> Home page displays all restaurants and allows fuzzy search</h3>
   <img src="./images/home.png">
   
   <h3> show page displays detail information about chosen restaurant and allows modification by author of the restaurant/comments </h3>
-  <img src="./images/show1.png" width="500">
-  <img src="./images/show2.png" width="500">
+  <img src="./images/show1.png">
+  <img src="./images/show2.png">
   
-  <h3> User register/login pages</h3>
-  <img src="./images/signup.png" width="500">
-  <img src="./images/login.png" width="500">
+  <h3> User register page</h3>
+  <img src="./images/signup.png">
   
-  <h3> Add/modify restaurant pages</h3>
-  <img src="./images/addRestaurant.png" width="500">
-  <img src="./images/editRestaurant.png" width="500">
+  <h3> User login page</h3>
+  <img src="./images/login.png">
   
-  <h3> Add/modify comment pages</h3>
-  <img src="./images/addComment.png" width="500">
-  <img src="./images/editComment.png" width="500">
+  <h3> Add new restaurant page</h3>
+  <img src="./images/addRestaurant.png">
+  
+  <h3> Modify restaurant page</h3>
+  <img src="./images/editRestaurant.png">
+  
+  <h3> Add new comment page</h3>
+  <img src="./images/addComment.png">
+  
+  <h3> Modify comment page</h3>
+  <img src="./images/editComment.png">
  </div>
