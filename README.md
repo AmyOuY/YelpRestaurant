@@ -10,10 +10,10 @@
   <img src="./images/landing1.png">
   <img src="./images/landing3.png">
   
-  <h3 margin-top="20"> Home page displays all restaurants and allows fuzzy search</h3>
+  <h3 margin-top="50"> Home page displays all restaurants and allows fuzzy search</h3>
   <img src="./images/home.png">
   
-  <h3 margin-top="20"> Show page displays detail information about chosen restaurant and allows modification by author of the restaurant/comments </h3>
+  <h3 margin-top="50"> Show page displays detail information about chosen restaurant and allows modification by author of the restaurant/comments </h3>
   <img src="./images/show1.png">
   <img src="./images/show2.png">
   
