@@ -7,5 +7,6 @@
 </ul>
 <div>
   <h3> animated landing page </h3>
-    <img src="./images/landing1.png" width=500>
+    <img src="./images/landing1.png" width="500" align="left">
+    <img src="./images/landing3.png" width="500" align="right">
  </div>
