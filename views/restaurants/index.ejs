@@ -1,0 +1,53 @@
+<%- include("../partials/header") %>
+
+<header class="jumbotron text-center">
+	<div class="container">
+		<h1>
+			Welcome to YelpRestaurant
+		</h1>
+		<p>
+			View our handed-picked restaurants in the region of Montreal
+		</p>
+		<p>
+			<a class="btn btn-lg btn-primary" href="/restaurants/new">Add New Restaurant</a>
+		</p>
+		<form action="/restaurants" method="GET" class="form-inline">
+			<div class="form-group">
+				<input class="form-control" type="text" name="search" placeholder="Search Restaurant...">
+				<input class="btn btn-default" type="submit" value="Search">
+			</div>
+		</form>
+	</div>
+</header>
+<div class="row text-center restaurantDisplay">
+	<div class="col-md-12">
+		<% if (noMatch !== null) { %>
+			<h3>
+				<%= noMatch %>	
+			</h3>
+		<% } %>
+	</div>
+	<% restaurants.forEach(function(restaurant){ %>
+		<div class="col-md-3 col-sm-6">
+			<div class="thumbnail">
+				<img src="<%= restaurant.image %>">
+				<div>
+					<h4 class="caption">
+						<strong><%= restaurant.name %></strong>
+					</h4>
+				</div>
+				<div>
+					<h5>
+						<%= restaurant.flavor %>
+					</h5>
+				</div>
+				<p>
+					<a href="/restaurants/<%= restaurant._id %>" calss="btn btn-primary">More Info</a>
+				</p> 
+			</div>
+		</div>
+	<% }) %>
+</div>
+
+
+<%- include("../partials/footer") %> 

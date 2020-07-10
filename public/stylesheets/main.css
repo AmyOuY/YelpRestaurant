@@ -1,0 +1,45 @@
+.delete {
+	display: inline;
+}
+
+
+.restaurantDisplay {
+	display:flex; 
+	flex-wrap: wrap;
+}
+
+
+.h1-head {
+	text-align: center;
+}
+
+
+.form-head {
+	width: 40%;
+	margin: 30px auto;
+}
+
+
+.thumbnail {
+	padding: 0;
+}
+
+
+.thumbnail img {
+	width: 100%;
+}
+
+
+.thumbnail .caption-full {
+	padding: 10px;
+}
+
+
+#restaurantName {
+	color: purple;
+}
+
+
+#restaurantFlavor {
+	color: green;
+}
