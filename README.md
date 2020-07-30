@@ -4,6 +4,7 @@
   <li> Front-end is implemented with JavaScript, HTML5, CSS and Bootstrap. </li>
   <li> Back-end is implemented with Node.js and Express, and utilized MongoDB to store user’s archives. </li>
   <li> User authentication and authorization is implemented by Passport.js. </li>
+  <li> The web application has been deployed and supported on Heroku (https://quiet-beach-85305.herokuapp.com/). </li>
 </ul>
 <div>
   <h3> Animated landing pages </h3>
